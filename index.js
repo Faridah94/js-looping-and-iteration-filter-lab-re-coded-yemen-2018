@@ -30,7 +30,7 @@ function findMatching(array,arg){
     for (const key of array){
       
       if (key["name"] === arg){
-        matching.push(user);
+        matching.push(key);
       }
       
       
