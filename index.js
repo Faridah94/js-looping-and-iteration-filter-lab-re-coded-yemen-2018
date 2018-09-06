@@ -27,9 +27,9 @@ function findMatching(array,arg){
  function matchName(array, arg){
   let matching = [];
   
-    for (const user of array){
+    for (const key of array){
       
-      if (user["name"] === arg){
+      if (key["name"] === arg){
         matching.push(user);
       }
       
